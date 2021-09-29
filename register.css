@@ -1,0 +1,36 @@
+nav{
+    
+    background-color: rgb(126, 119, 119);
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color: rgb(5, 5, 5);
+    font-size: 50px;
+    line-height: 80px;
+    padding: 5px 10px 10px 100px ;
+    justify-content: right;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    padding: 0 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(250, 135, 3);
+    font-size: 18px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
