@@ -267,6 +267,7 @@ section{
     color: rgb(79, 80, 80);
 }
 .btn{
+    cursor:pointer;
     margin-left: 5px;
     height: 55px;
     border-radius: 30px;
@@ -275,10 +276,10 @@ section{
     font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.btn:hover{
+.btn:active{
     background-color: #695730;
     cursor: pointer;
 }
-.btn:hover p{
+.btn:active p{
     color: #fff;
 }
